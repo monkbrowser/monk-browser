@@ -24,12 +24,13 @@ void CustomizeChromeFeaturePromoHelper::MaybeShowCustomizeChromeFeaturePromo(
     content::WebContents* web_contents) {
   if (base::FeatureList::IsEnabled(
           feature_engagement::kIPHDesktopCustomizeChromeFeature)) {
-    auto* browser_window =
-        BrowserWindow::FindBrowserWindowWithWebContents(web_contents);
-    if (browser_window) {
-      browser_window->MaybeShowFeaturePromo(
-          feature_engagement::kIPHDesktopCustomizeChromeFeature);
-    }
+   // Disable for now
+   // auto* browser_window =
+   //     BrowserWindow::FindBrowserWindowWithWebContents(web_contents);
+   // if (browser_window) {
+   //   browser_window->MaybeShowFeaturePromo(
+   //       feature_engagement::kIPHDesktopCustomizeChromeFeature);
+   // }
   }
 }
 
