@@ -129,7 +129,7 @@ bool IncognitoModePrefs::ArePlatformParentalControlsEnabled() {
 IncognitoModeAvailability IncognitoModePrefs::GetAvailabilityInternal(
     const PrefService* pref_service,
     GetAvailabilityMode mode) {
-  DCHECK(pref_service);
+/*   DCHECK(pref_service);
   int pref_value = pref_service->GetInteger(
       policy::policy_prefs::kIncognitoModeAvailability);
   IncognitoModeAvailability result = kDefaultAvailability;
@@ -142,7 +142,8 @@ IncognitoModeAvailability IncognitoModePrefs::GetAvailabilityInternal(
     }
     return IncognitoModeAvailability::kDisabled;
   }
-  return result;
+  return result; */
+  return IncognitoModeAvailability::kDisabled;
 }
 
 // static

@@ -1524,7 +1524,7 @@ void RenderViewContextMenu::AppendLinkItems() {
 
     bool show_open_in_new_window = true;
     // Remove incognito mode context menu option.
-    bool show_open_link_off_the_record = true;
+    bool show_open_link_off_the_record = false;
 
 #if BUILDFLAG(IS_CHROMEOS_ASH)
     Profile* profile = GetProfile();

@@ -1077,12 +1077,12 @@ void AppMenuModel::Build() {
   // This menu item is not visible in Guest Mode. If incognito mode is not
   // available, it will be shown in disabled state. (crbug.com/1100791)
   // Remove incognito mode from the main menu.
-  if (!browser_->profile()->IsGuestSession()) {
+/*   if (!browser_->profile()->IsGuestSession()) {
      AddItemWithStringId(IDC_NEW_INCOGNITO_WINDOW, IDS_NEW_INCOGNITO_WINDOW);
      SetElementIdentifierAt(
          GetIndexOfCommandId(IDC_NEW_INCOGNITO_WINDOW).value(),
          kIncognitoMenuItem);
-   }
+   } */
 
   AddSeparator(ui::NORMAL_SEPARATOR);
 
