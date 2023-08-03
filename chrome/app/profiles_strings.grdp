@@ -727,7 +727,7 @@
     <if expr="not chromeos_lacros">
       <message name="IDS_FRE_SIGN_IN_SUBTITLE_0"
         desc="This is the subtitle on a full-page screen that asks the user to sign in to Chrome with their Google Account. It appears when the user launches Chrome for the first time. When they sign in, they can personalize and customize Chrome and remember their settings in their Google Account. These features are also described in the cards below as 'All your devices', 'Stronger security', and 'Back up data'. The tone should be inviting and alluring.">
-        Get additional features
+        Get additional features from Monk
       </message>
       <message name="IDS_FRE_SIGN_IN_SUBTITLE_1"
         desc="This is the subtitle on a full-page screen that asks the user to sign in to Chrome with their Google Account. It appears when the user launches Chrome for the first time. When they sign in, they can personalize and customize Chrome and remember their settings in their Google Account. These features are also described in the cards below as 'All your devices', 'Stronger security', and 'Back up data'. The tone should be inviting and alluring.">
@@ -739,7 +739,7 @@
       </message>
       <message name="IDS_FRE_DEVICES_CARD_DESCRIPTION"
         desc="This is the body text in one of three cards that represent the top benefits for why a user should sign in to Chrome with a Google Account. The cards appear on a full-page screen when the user launches Chrome for the first time. The body is preceded by the headline 'All your devices'. This card's body means that users can get their data (like bookmarks, history) on all the devices where they're signed in. The tone should be informative.">
-        Easily pick up where you left off
+        Easily pick up where you left off (MacOS only)
       </message>
       <message name="IDS_FRE_SECURITY_CARD_TITLE"
         desc="This string is the headline in one of three cards that represent the top benefits for why a user should sign in to Chrome with a Google Account. The cards appear on a full-page screen when the user launches Chrome for the first time. This card's headline means that users can get a higher level of security. The headline is followed by the body text 'Protect your passwords against phishing'. The tone should be informative.">
